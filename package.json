@@ -1,0 +1,17 @@
+{
+  "name": "bmap",
+  "version": "0.0.0",
+  "description": "An awesome Kibana plugin for bmap",
+  "main": "index.js",
+  "kibana": {
+    "version": "6.1.1",
+    "templateVersion": "8.0.0"
+  },
+  "dependencies": {
+    "echarts": "^4.0.4"
+  },
+  "build": {
+    "git": {},
+    "date": "Tue Apr 24 2018 13:17:40 GMT+0800 (China Standard Time)"
+  }
+}
