@@ -199,7 +199,7 @@ module.controller('BmapController', function ($scope, $injector, $window, $http,
       series: [
         {
           name: 'Value',
-          type: 'scatter',
+          type: 'point',
           coordinateSystem: 'bmap',
           data: searchData,
           symbolSize: function (val) {
@@ -250,7 +250,7 @@ function BmapVisType(Private) {
         field: 'filed1',
         color: '#fff',
         symbolSize: 100,
-        bmapText: '全国主要城市空气质量 - 百度地图',
+        bmapText: '百度地图',
         bmapSubText: 'data from PM25.in'
       },
       template: BmapTemplate
